@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="assets/img/flavicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Bienvenido al ovi de html 5</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+            <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <img src="assets/img/logoUweb.png" alt="Este recurso no es soportado por el navegador actual :(">
+                </div>
+
+                <ul class="nav">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="ti-home"></i>
+                            <p>Inicio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetas.html">
+                            <i class="ti-menu-alt"></i>
+                            <p>Etiquetas</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="loBasico.html">
+                            <i class="ti-view-list-alt"></i>
+                            <p>Lo basico</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetasNav.html">
+                            <i class="ti-layout-tab-v"></i>
+                            <p>Tags Navegación</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetasContenido.html">
+                            <i class="ti-layout-cta-btn-left"></i>
+                            <p>Tags Contenido</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="buenasPracticas.html">
+                            <i class="ti-check"></i>
+                            <p>Buenas practicas</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle">
+                          <span class="sr-only">Toggle navigation</span>
+
+                          <span class="icon-bar bar2"></span>
+
+                      </button>
+                      <a class="navbar-brand" href="#">Inicio</a>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                      </ul>
+
+                  </div>
+              </div>
+          </nav>
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="content">
+                                    <h2>¿Qué es HTML?</h2>
+                                    <p>HTML es una sigla que significa y traduciéndolo al español significa lenguaje de marcas
+                                        de hipertexto define una estructura básica y un código (denominado código HTML) para
+                                        la definición de contenido de una página web, como texto, imágenes, videos, juegos
+                                        etc. Este leguaje de etiqueta es de tipo secuencial es decir cómo se vaya estructurando
+                                        así mismo el navegador que es el que se encarga de interpretar ese código lo va a
+                                        mostrar en pantalla. Este lenguaje comprende de elementos como tags o etiquetas,
+                                        atributos como src(sources) o recursos id (de identificador) y class (de clases)
+                                        y muchos más que se explicaran más adelante.</p>
+                                    <h3>Un poco de historia</h3>
+                                    <p>HTML hizo su lanzamiento inicial en 1993, HTML es un estándar a cargo del World Wide
+                                        Web Consortium que es organización dedicada a la estandarización de casi todas las
+                                        tecnologías ligadas a la web a lo largo del tiempo este leguaje de marcado ha sufrido
+                                        cambios para que fuese más eficiente facilitar el desarrollo de páginas web compatibles
+                                        con distintos navegadores y plataformas. La actual versión de este lenguaje de etiquetado
+                                        es la versión 5 que fue lanzada el 28 de octubre de 2014</p>
+                                    <h5 class="text-danger">Nota: HTML NO es un lenguaje de programación como lo es JAVA, .NET o PHP entre otros.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer text-center">
+                <div class="container-fluid ">
+                    <div class="footer-above">
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/unadFooter.png" alt="">
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h5> Copyright &copy; Uweb 2017 Reservados todos los derechos.</h5>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/UwebFooter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+</html>

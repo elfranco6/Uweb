@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="assets/img/flavicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Bienvenido al ovi de html 5</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+            <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <img src="assets/img/logoUweb.png" alt="Este recurso no es soportado por el navegador actual :(">
+                </div>
+
+                <ul class="nav">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="ti-home"></i>
+                            <p>Inicio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetas.html">
+                            <i class="ti-menu-alt"></i>
+                            <p>Etiquetas</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="loBasico.html">
+                            <i class="ti-view-list-alt"></i>
+                            <p>Lo basico</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetasNav.html">
+                            <i class="ti-layout-tab-v"></i>
+                            <p>Tags Navegación</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="etiquetasContenido.html">
+                            <i class="ti-layout-cta-btn-left"></i>
+                            <p>Tags Contenido</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="buenasPracticas.html">
+                            <i class="ti-check"></i>
+                            <p>Buenas practicas</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle">
+                          <span class="sr-only">Toggle navigation</span>
+
+                          <span class="icon-bar bar2"></span>
+
+                      </button>
+                      <a class="navbar-brand" href="#">Tags Contenido</a>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                      </ul>
+
+                  </div>
+              </div>
+          </nav>
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="content">
+                                  <h3>Etiquestas de contenido </h3>
+                            <p>Las Tags Contenido son aquellas que albergar cierto contenido</p>
+                            <p>estas etiquetas ayudan a que un documento tenga semántica</p>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>etiquetas</th>
+                                        <th>Atributos</th>
+                                        <th>Valores</th>
+                                        <th>Explicacción</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Heading</td>
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>También conocidas como las etiquetas estas significan encabezado</p>
+                                                <p>van desde <strong class="text-warning">h1</strong> hasta <strong class="text-warning">h6</strong> según su importancia así <strong class="text-warning">h1</strong> sería la más importante y <strong class="text-warning">h6</strong> la menos importante.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>p</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>El texto que esté dentro de la etiqueta párrafo el navegador entenderá que el mismo es un párrafo</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Article</td>
+
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>Esta etiqueta define un contenido específico dentro de una web y que por sí solo tiene sentido.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>section</td>
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>Esta etiqueta define  sirve para definir una sección o agrupación temática del contenido de una página web.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Aside</td>
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>Esta etiqueta define una sección de la web donde el contenido no tiene que estar necesariamente relacionado con el contenido principal de la web.</p>
+                                                <p>Generalmente suelen ser barras laterales o sidebars de una web (Plugins sociales, publicidades…).</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Footer</td>
+                                            <td>
+                                                <p>Class, id</p>
+                                            </td>
+
+                                            <td>
+                                                <p>Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.</p>
+                                            </td>
+                                            <td>
+                                                <p>Contiene la agrupación de código HTML correspondiente al pie de página que suelen tener </p>
+                                                <p>habitualmente todas las webs como redes sociales datos de contacto y copyright</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer text-center">
+                <div class="container-fluid ">
+                    <div class="footer-above">
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/unadFooter.png" alt="">
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h5> Copyright &copy; Uweb 2017 Reservados todos los derechos.</h5>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/UwebFooter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+
+</html>

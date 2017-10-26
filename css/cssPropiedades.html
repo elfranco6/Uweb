@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="assets/img/flavicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Bienvenido al OVI de CSS3 propiedades</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+            <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="css.html" class="simple-text">
+                        <img src="assets/img/logoUweb.png" alt="Este recurso no es soportado por el navegador actual :(">
+                    </a>
+                </div>
+
+                <ul class="nav">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="ti-home"></i>
+                            <p>Inicio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cssDisplay.html" >
+                            <i class="ti-layout-media-overlay-alt"></i>
+                            <p>Display</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cssSelectores.html">
+                            <i class="ti-layout-list-post"></i>
+                            <p>Selectores</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cssPropiedades.html">
+                            <i class="ti-panel"></i>
+                            <p>Propiedades</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle">
+                          <span class="sr-only">Toggle navigation</span>
+
+                          <span class="icon-bar bar2"></span>
+
+                      </button>
+                      <a class="navbar-brand" href="#">Propiedades CSS</a>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                      </ul>
+
+                  </div>
+              </div>
+          </nav>
+
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="content">
+                                  <h3>Propiedades CSS</h3>
+                            <p>En esta sección vamos a ver algunas propiedades de css tales como:</p>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>propiedad</th>
+                                        <th>valores</th>
+                                        <th>Explicación</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>class</td>
+                                            <td> N/A </td>
+                                            <td> La propiedad de class son los más utilizados, este selector es que en una misma
+                                                página HTML varios elementos diferentes pueden utilizar el mismo valor en
+                                                el atributo class</td>
+                                        </tr>
+                                        <tr>
+                                            <td>float</td>
+                                            <td>
+                                                <p>left</p>
+                                                <p>right</p>
+                                                <p>none</p>
+                                                <p>inherit</p>
+                                            </td>
+                                            <td>Posiciona los elementos de forma flotante
+                                                <p>
+                                                    <strong class="text-primary">left:</strong> la caja se desplaza todo lo posible a la izquierda de la
+                                                    posición en la que se encontraba</p>
+                                                <p>
+                                                    <strong class="text-primary">right:</strong> la caja se desplaza todo lo posible a la derecha de la
+                                                    posición en la que se encontraba.</p>
+                                                <p>
+                                                    <strong class="text-primary">none:</strong> la caja no se desplaza respecto de su posición original.</p>
+                                                <p>
+                                                    <strong class="text-primary">inherit:</strong> se puede utilizar el valor inherit para forzar a que
+                                                    se produzca la herencia automática</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Overfow</td>
+                                            <td>
+                                                <p>visible</p>
+                                                <p>hidden</p>
+                                                <p>scroll</p>
+                                                <p>inherit</p>
+                                            </td>
+                                            <td>
+                                                <p>Controla el comportamiento de los contenidos que no caben en su elemento
+                                                    contenedor</p>
+                                                <p>
+                                                    <strong class="text-primary">visible:</strong> que es el comportamiento que hace que los contenidos
+                                                    se salgan del elemento y sean completamente visibles</p>
+                                                <p>
+                                                    <strong class="text-primary">hidden:</strong> que hace que el navegador oculte todos los contenidos
+                                                    que se salen de la caja del elemento</p>
+                                                <p>
+                                                    <strong class="text-primary">scroll:</strong> que hace que el navegador muestre barras de scroll sobre
+                                                    un elemento cuando sus contenidos no caben en la caja del elemento</p>
+                                                <p>
+                                                    <strong class="text-primary">inherit:</strong> se puede utilizar el valor inherit para forzar a que
+                                                    se produzca la herencia automática. </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Background</p>
+                                            </td>
+                                            <td>
+                                                <p>color</p>
+                                                <p>repeat</p>
+                                                <p>position</p>
+                                                <p>image</p>
+                                                <p>attachment</p>
+                                                <p>inherit</p>
+                                            </td>
+                                            <td>
+                                                <p>Establece algunas o todas las propiedades del color y/o imagen de fondo de
+                                                    un elemento</p>
+                                                <p>
+                                                    <strong class="text-primary">color:</strong> Establece el color de fondo</p>
+                                                <p>
+                                                    <strong class="text-primary">repeat:</strong> Establece si la imagen se repite o no</p>
+                                                <p>
+                                                    <strong class="text-primary">image:</strong> Establece una imagen de fondo</p>
+                                                <p>
+                                                    <strong class="text-primary">position:</strong> Establece la posición de la imagen</p>
+                                                <p>
+                                                    <strong class="text-primary">attachment:</strong> Establece si la imagen va ser fija o no</p>
+                                                <p>
+                                                    <strong class="text-primary">inherit:</strong>Se puede utilizar el valor inherit para forzar a que
+                                                    se produzca la herencia automática. </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>color</td>
+                                            <td>N/A</td>
+                                            <td>Establece el color de los textos.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer text-center">
+                <div class="container-fluid ">
+                    <div class="footer-above">
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/unadFooter.png" alt="">
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h5> Copyright &copy; Uweb 2017 Reservados todos los derechos.</h5>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <img src="assets/img/UwebFooter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+
+</html>
